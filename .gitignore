@@ -44,3 +44,6 @@ next-env.d.ts
 lca.xlsx
 wage.zip
 wage_dir/
+*.py
+inspect_data.*
+.venv/
