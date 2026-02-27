@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ETL data
+lca.xlsx
+wage.zip
+wage_dir/

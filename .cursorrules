@@ -1,0 +1,37 @@
+CONSTRAINT PROTOCOLS ACTIVE — 4 INVARIANT ZONES LOADED
+
+DO NOT refactor "ugly" code in this project. These patterns are load-bearing.
+
+ZONE 1 (LEGAL / UPL SHIELD)
+- Do not edit clickwrap, diagnostic card language, or generateMemo() text.
+- Keep advisory language advisory. Never convert to directives.
+- Citation is exactly: 90 Fed. Reg. 60864 (Dec 29, 2025). Effective Feb 27, 2026.
+
+ZONE 2 (MOBILE WEBVIEW CLIPBOARD)
+- Keep textarea + document.execCommand clipboard fallback intact.
+- No clipboard libraries. No feature-detection that bypasses fallback.
+
+ZONE 3 (DETERMINISTIC MATH)
+- Keep toNumber() sanitizer.
+- Keep threshold validation: len=4, finite, >0, monotonic non-decreasing.
+- Keep no_wage and no_data states.
+- Keep explicit if/else tier ladder. No clever alternatives.
+- Never default missing thresholds to [0,0,0,0].
+
+ZONE 4 (MOBILE UX / ZERO DEPENDENCIES)
+- Keep inputMode="numeric" on wage input.
+- No animation libraries.
+- Keep inline <style> injection. No CSS modules or Tailwind @apply.
+- No external fonts.
+- Keep number spinner suppression CSS.
+
+BEFORE ANY CODE CHANGE, output:
+
+  <invariant_check>
+  Zones touched: ...
+  Why safe: ...
+  Behavior change: none | REQUIRES USER AUTHORIZATION
+  </invariant_check>
+
+Output only edited blocks, not full files, unless requested.
+Preserve inline "why" comments.
