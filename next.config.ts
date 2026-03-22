@@ -1,7 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {
+    root: process.cwd(),
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.wagelevel.fyi" }],
+        destination: "https://wagelevel.fyi/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
