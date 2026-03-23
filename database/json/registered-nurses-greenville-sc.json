@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "registered-nurses-greenville-sc",
+    "soc_code": "29-1141.00",
+    "soc_label": "Registered Nurses",
+    "area_code": "24860",
+    "area_label": "Greenville-Anderson-Greer, SC",
+    "area_short": "Greenville, SC",
+    "canonical_url": "https://www.wagelevel.fyi/registered-nurses-greenville-sc"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Registered Nurses in Greenville, SC (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Registered Nurses (SOC 29-1141.00) in Greenville-Anderson-Greer, SC. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level registered nurses greenville, sc, h1b lottery odds greenville, sc, 29-1141.00 wage level 24860"
+  },
+  "thresholds": {
+    "level_1": 66892,
+    "level_2": 74963,
+    "level_3": 83012,
+    "level_4": 91083
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "registered-nurses-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 139235
+      },
+      {
+        "slug": "registered-nurses-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 126880
+      },
+      {
+        "slug": "registered-nurses-sacramento-ca",
+        "area_label": "Sacramento, CA",
+        "l1": 111800
+      },
+      {
+        "slug": "registered-nurses-san-diego-ca",
+        "area_label": "San Diego, CA",
+        "l1": 106080
+      },
+      {
+        "slug": "registered-nurses-los-angeles-ca",
+        "area_label": "Los Angeles, CA",
+        "l1": 100900
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-greenville-sc",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 93537
+      },
+      {
+        "slug": "computer-network-architects-greenville-sc",
+        "soc_label": "Computer Network Architects",
+        "l1": 90355
+      },
+      {
+        "slug": "computer-information-research-scientists-greenville-sc",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 88108
+      },
+      {
+        "slug": "database-architects-greenville-sc",
+        "soc_label": "Database Architects",
+        "l1": 74609
+      },
+      {
+        "slug": "industrial-engineers-greenville-sc",
+        "soc_label": "Industrial Engineers",
+        "l1": 73694
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Registered Nurses in Greenville, SC?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Registered Nurses in Greenville, SC are: Level I $66,892, Level II $74,963, Level III $83,012, and Level IV $91,083. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Registered Nurses in Greenville, SC?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

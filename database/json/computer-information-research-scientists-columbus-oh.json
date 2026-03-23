@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-information-research-scientists-columbus-oh",
+    "soc_code": "15-1221.00",
+    "soc_label": "Computer And Information Research Scientists",
+    "area_code": "18140",
+    "area_label": "Columbus, OH",
+    "area_short": "Columbus, OH",
+    "canonical_url": "https://www.wagelevel.fyi/computer-information-research-scientists-columbus-oh"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer And Information Research Scientists in Columbus, OH (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer And Information Research Scientists (SOC 15-1221.00) in Columbus, OH. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer and information research scientists columbus, oh, h1b lottery odds columbus, oh, 15-1221.00 wage level 18140"
+  },
+  "thresholds": {
+    "level_1": 121721,
+    "level_2": 131934,
+    "level_3": 142126,
+    "level_4": 152339
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-information-research-scientists-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 141814
+      },
+      {
+        "slug": "computer-information-research-scientists-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 129916
+      },
+      {
+        "slug": "computer-information-research-scientists-richmond-va",
+        "area_label": "Richmond, VA",
+        "l1": 129209
+      },
+      {
+        "slug": "computer-information-research-scientists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 127712
+      },
+      {
+        "slug": "computer-information-research-scientists-buffalo-ny",
+        "area_label": "Buffalo, NY",
+        "l1": 118934
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-columbus-oh",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 114254
+      },
+      {
+        "slug": "database-architects-columbus-oh",
+        "soc_label": "Database Architects",
+        "l1": 94619
+      },
+      {
+        "slug": "computer-hardware-engineers-columbus-oh",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 89211
+      },
+      {
+        "slug": "software-developers-columbus-oh",
+        "soc_label": "Software Developers",
+        "l1": 82846
+      },
+      {
+        "slug": "information-security-analysts-columbus-oh",
+        "soc_label": "Information Security Analysts",
+        "l1": 81452
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer And Information Research Scientists in Columbus, OH?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer And Information Research Scientists in Columbus, OH are: Level I $121,721, Level II $131,934, Level III $142,126, and Level IV $152,339. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer And Information Research Scientists in Columbus, OH?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

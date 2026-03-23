@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "accountants-auditors-san-francisco-ca",
+    "soc_code": "13-2011.00",
+    "soc_label": "Accountants And Auditors",
+    "area_code": "41860",
+    "area_label": "San Francisco-Oakland-Fremont, CA",
+    "area_short": "San Francisco, CA",
+    "canonical_url": "https://www.wagelevel.fyi/accountants-auditors-san-francisco-ca"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Accountants And Auditors in San Francisco, CA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Accountants And Auditors (SOC 13-2011.00) in San Francisco-Oakland-Fremont, CA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level accountants and auditors san francisco, ca, h1b lottery odds san francisco, ca, 13-2011.00 wage level 41860"
+  },
+  "thresholds": {
+    "level_1": 76211,
+    "level_2": 97926,
+    "level_3": 119662,
+    "level_4": 141377
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "accountants-auditors-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 81182
+      },
+      {
+        "slug": "accountants-auditors-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 73112
+      },
+      {
+        "slug": "accountants-auditors-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 73070
+      },
+      {
+        "slug": "accountants-auditors-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 70096
+      },
+      {
+        "slug": "accountants-auditors-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 69139
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-san-francisco-ca",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 164132
+      },
+      {
+        "slug": "software-developers-san-francisco-ca",
+        "soc_label": "Software Developers",
+        "l1": 135699
+      },
+      {
+        "slug": "computer-hardware-engineers-san-francisco-ca",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 133203
+      },
+      {
+        "slug": "registered-nurses-san-francisco-ca",
+        "soc_label": "Registered Nurses",
+        "l1": 126880
+      },
+      {
+        "slug": "database-architects-san-francisco-ca",
+        "soc_label": "Database Architects",
+        "l1": 124488
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Accountants And Auditors in San Francisco, CA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Accountants And Auditors in San Francisco, CA are: Level I $76,211, Level II $97,926, Level III $119,662, and Level IV $141,377. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Accountants And Auditors in San Francisco, CA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

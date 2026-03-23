@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-programmers-urban-honolulu-hi",
+    "soc_code": "15-1251.00",
+    "soc_label": "Computer Programmers",
+    "area_code": "46520",
+    "area_label": "Urban Honolulu, HI",
+    "area_short": "Urban Honolulu, HI",
+    "canonical_url": "https://www.wagelevel.fyi/computer-programmers-urban-honolulu-hi"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Programmers in Urban Honolulu, HI (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Programmers (SOC 15-1251.00) in Urban Honolulu, HI. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer programmers urban honolulu, hi, h1b lottery odds urban honolulu, hi, 15-1251.00 wage level 46520"
+  },
+  "thresholds": {
+    "level_1": 79622,
+    "level_2": 91832,
+    "level_3": 104020,
+    "level_4": 116230
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-programmers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 108555
+      },
+      {
+        "slug": "computer-programmers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 102876
+      },
+      {
+        "slug": "computer-programmers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 85529
+      },
+      {
+        "slug": "computer-programmers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 84156
+      },
+      {
+        "slug": "computer-programmers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 82867
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "database-architects-urban-honolulu-hi",
+        "soc_label": "Database Architects",
+        "l1": 115003
+      },
+      {
+        "slug": "computer-information-systems-managers-urban-honolulu-hi",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 109740
+      },
+      {
+        "slug": "computer-information-research-scientists-urban-honolulu-hi",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 103313
+      },
+      {
+        "slug": "computer-hardware-engineers-urban-honolulu-hi",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 96054
+      },
+      {
+        "slug": "registered-nurses-urban-honolulu-hi",
+        "soc_label": "Registered Nurses",
+        "l1": 91582
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Programmers in Urban Honolulu, HI?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Programmers in Urban Honolulu, HI are: Level I $79,622, Level II $91,832, Level III $104,020, and Level IV $116,230. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Programmers in Urban Honolulu, HI?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

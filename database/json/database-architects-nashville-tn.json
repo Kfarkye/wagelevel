@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "database-architects-nashville-tn",
+    "soc_code": "15-1243.00",
+    "soc_label": "Database Architects",
+    "area_code": "34980",
+    "area_label": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "area_short": "Nashville, TN",
+    "canonical_url": "https://www.wagelevel.fyi/database-architects-nashville-tn"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Database Architects in Nashville, TN (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Database Architects (SOC 15-1243.00) in Nashville-Davidson--Murfreesboro--Franklin, TN. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level database architects nashville, tn, h1b lottery odds nashville, tn, 15-1243.00 wage level 34980"
+  },
+  "thresholds": {
+    "level_1": 93849,
+    "level_2": 114566,
+    "level_3": 135262,
+    "level_4": 155979
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "database-architects-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 128606
+      },
+      {
+        "slug": "database-architects-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 124488
+      },
+      {
+        "slug": "database-architects-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 119704
+      },
+      {
+        "slug": "database-architects-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 117686
+      },
+      {
+        "slug": "database-architects-urban-honolulu-hi",
+        "area_label": "Urban Honolulu, HI",
+        "l1": 115003
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-nashville-tn",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 108908
+      },
+      {
+        "slug": "computer-hardware-engineers-nashville-tn",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 89107
+      },
+      {
+        "slug": "computer-network-architects-nashville-tn",
+        "soc_label": "Computer Network Architects",
+        "l1": 88108
+      },
+      {
+        "slug": "software-developers-nashville-tn",
+        "soc_label": "Software Developers",
+        "l1": 84531
+      },
+      {
+        "slug": "computer-information-research-scientists-nashville-tn",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 78582
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Database Architects in Nashville, TN?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Database Architects in Nashville, TN are: Level I $93,849, Level II $114,566, Level III $135,262, and Level IV $155,979. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Database Architects in Nashville, TN?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

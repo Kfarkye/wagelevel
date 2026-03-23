@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>{{ seo.title }}</title>
+  <meta name="description" content="{{ seo.description }}" />
+  <meta name="keywords" content="{{ seo.keywords }}" />
+  <link rel="canonical" href="{{ identity.canonical_url }}" />
+  <meta property="og:title" content="{{ seo.title }}" />
+  <meta property="og:description" content="{{ seo.description }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ identity.canonical_url }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ seo.title }}" />
+  <meta name="twitter:description" content="{{ seo.description }}" />
+  <meta name="theme-color" content="#faf9f7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Karla:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "All Occupations", "item": "{{ site_domain }}/"},
+          {"@type": "ListItem", "position": 2, "name": {{ identity.soc_label | tojson }}, "item": {{ identity.canonical_url | tojson }}}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {% for f in faq %}
+          {
+            "@type": "Question",
+            "name": {{ f.question | tojson }},
+            "acceptedAnswer": {"@type": "Answer", "text": {{ f.answer | tojson }}}
+          }{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --paper: #faf9f7;
+      --line: #e6e2dc;
+      --ink: #1f1f1f;
+      --muted: #6f6f6f;
+      --soft: #888888;
+      --link: #1f6280;
+      --accent: #b08a52;
+      --accent-soft: rgba(176, 138, 82, 0.12);
+      --shell: 1120px;
+      --reading: 760px;
+      --shadow-soft: 0 18px 42px rgba(37, 29, 20, 0.06);
+      --shadow-hairline: 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    html { background: var(--bg); color: var(--ink); font-size: 16px; }
+
+    body {
+      font-family: 'Karla', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      transition: color 140ms ease;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      color: #191919;
+      letter-spacing: -0.01em;
+      line-height: 1.22;
+    }
+
+    h1 { font-size: clamp(28px, 4.5vw, 38px); }
+    h2 { font-size: clamp(22px, 3.5vw, 28px); margin-bottom: 12px; }
+    h3 { font-size: 18px; margin-bottom: 8px; }
+    p { color: #313131; }
+
+    .skip-link { position: absolute; left: -9999px; top: auto; }
+    .skip-link:focus {
+      left: 12px; top: 10px; z-index: 200;
+      background: #fff; border: 1px solid var(--line); border-radius: 6px;
+      padding: 8px 10px; color: var(--ink); text-decoration: none;
+    }
+
+    /* ── Nav ────────────────────────────────────────────────────────────── */
+    .site-nav {
+      position: sticky; top: 0; z-index: 100; height: 48px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .site-nav-inner {
+      width: min(var(--shell), calc(100% - 48px));
+      height: 48px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    }
+    .site-nav-brand {
+      font-size: 13px; font-weight: 600; color: #555;
+      text-decoration: none; letter-spacing: -0.01em;
+    }
+    .site-nav-links { display: flex; align-items: center; gap: 20px; list-style: none; }
+    .site-nav-links a { font-size: 13px; color: #888; text-decoration: none; }
+    .site-nav-links a:hover { color: #444; }
+    .fy-badge {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      background: rgba(176,138,82,0.1); color: var(--accent);
+      border: 1px solid rgba(176,138,82,0.2);
+      padding: 2px 8px; border-radius: 20px;
+    }
+
+    /* ── Hero ───────────────────────────────────────────────────────────── */
+    .hero {
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+      padding: 56px 0 44px;
+    }
+    .hero-inner {
+      width: min(var(--shell), calc(100% - 48px));
+      margin: 0 auto;
+    }
+    .state-label {
+      margin-bottom: 8px; font-size: 12px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--soft);
+    }
+    .hero-sub { margin-top: 10px; color: #444; max-width: 45ch; font-size: 17px; }
+    .updated { margin-top: 12px; font-size: 13px; color: #999; }
+
+    /* ── Layout ─────────────────────────────────────────────────────────── */
+    #main-content {
+      width: min(var(--shell), calc(100% - 48px));
+      margin: 0 auto; padding: 40px 0 104px;
+    }
+    .page-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(272px, 320px);
+      gap: 56px; align-items: start;
+    }
+    .content-column { order: 1; min-width: 0; }
+    .context-rail { order: 2; min-width: 0; }
+
+    /* ── Sections ───────────────────────────────────────────────────────── */
+    .section-shell { width: 100%; margin: 0 0 56px; }
+    .section-copy { width: min(42rem, 100%); margin-bottom: 18px; }
+    .section-kicker {
+      margin-bottom: 10px; font-size: 12px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: #8a7d6f;
+    }
+    .section-box {
+      background: var(--paper); border: 1px solid var(--line);
+      border-radius: 18px; padding: 28px 30px;
+      box-shadow: var(--shadow-soft), var(--shadow-hairline);
+    }
+
+    /* ── Sidebar ────────────────────────────────────────────────────────── */
+    .context-card { position: sticky; top: 82px; }
+    .context-card h2 { font-size: 24px; margin-bottom: 14px; }
+    .facts-grid {
+      display: grid; grid-template-columns: 1fr; gap: 6px 0;
+    }
+    .facts-grid dt {
+      margin-top: 12px; font-size: 11px; font-weight: 600;
+      color: #8b7f72; letter-spacing: 0.06em; text-transform: uppercase;
+    }
+    .facts-grid dt:first-child { margin-top: 0; }
+    .facts-grid dd {
+      margin: 0; padding-bottom: 10px; border-bottom: 1px solid #ece6de;
+      font-size: 15px; color: #1f1f1f; font-variant-numeric: tabular-nums;
+      font-family: var(--mono);
+    }
+    .facts-grid dd:last-child { border-bottom: 0; padding-bottom: 0; }
+    .context-links {
+      display: grid; gap: 10px; margin-top: 18px;
+      padding-top: 16px; border-top: 1px solid #ece6de;
+    }
+    .context-links a {
+      font-size: 14px; font-weight: 600; text-decoration: none; color: var(--link);
+    }
+    .context-links a:hover {
+      text-decoration: underline; text-decoration-color: rgba(31,98,128,0.3);
+    }
+    .source-note {
+      margin-top: 18px; padding-top: 14px; border-top: 1px solid #ece8e1;
+      font-size: 12px; color: #999; line-height: 1.5;
+    }
+
+    /* ── Calculator ─────────────────────────────────────────────────────── */
+    .calc-box {
+      background: var(--paper); border: 1px solid var(--line);
+      border-radius: 18px; padding: 28px 30px;
+      box-shadow: var(--shadow-soft), var(--shadow-hairline);
+    }
+    .calc-input-wrap { position: relative; margin-top: 14px; }
+    .calc-dollar {
+      position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+      font-family: var(--mono); font-size: 20px; color: #999; pointer-events: none;
+    }
+    #wage-input {
+      width: 100%; font-family: var(--mono); font-size: 24px; font-weight: 700;
+      padding: 14px 16px 14px 36px;
+      border: 1px solid var(--line); border-radius: 12px;
+      background: #fff; color: var(--ink);
+      outline: none; transition: border-color 140ms ease;
+    }
+    #wage-input:focus { border-color: var(--accent); }
+    #wage-input::placeholder { color: #ccc; }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+    input[type=number] { -moz-appearance: textfield; }
+    .calc-hint { font-size: 12px; color: #999; margin-top: 8px; }
+
+    .calc-result {
+      margin-top: 20px; padding-top: 20px; border-top: 1px solid #ece6de;
+      display: none;
+    }
+    .calc-result.visible { display: block; }
+    .result-tier-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+    .result-tier-num {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 56px; font-weight: 600; color: var(--ink); line-height: 1;
+    }
+    .result-tier-of { font-size: 18px; color: #999; font-family: 'Source Serif 4', serif; font-style: italic; }
+    .result-stats { display: flex; gap: 32px; }
+    .result-stat-label {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.15em;
+      text-transform: uppercase; color: #8b7f72; margin-bottom: 4px;
+    }
+    .result-stat-value {
+      font-family: var(--mono); font-size: 22px; font-weight: 700; color: var(--ink);
+    }
+    .result-stat-value.green { color: #2d7a4f; }
+    .result-note {
+      margin-top: 14px; padding-top: 12px; border-top: 1px solid #ece6de;
+      font-size: 13px; color: #666; line-height: 1.6;
+    }
+    .result-below-l1 { color: #a63d2f; }
+
+    /* ── Threshold Table ───────────────────────────────────────────────── */
+    .threshold-table { width: 100%; border-collapse: collapse; }
+    .threshold-table th {
+      text-align: left; font-size: 11px; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: #8b7f72; padding: 10px 16px; border-bottom: 2px solid var(--line);
+    }
+    .threshold-table td {
+      padding: 14px 16px; border-bottom: 1px solid #f0ece6;
+      font-size: 15px; color: #222; font-variant-numeric: tabular-nums;
+    }
+    .threshold-table td:nth-child(2) { font-family: var(--mono); font-weight: 600; }
+    .threshold-table td:nth-child(3),
+    .threshold-table td:nth-child(4) { font-family: var(--mono); }
+    .threshold-table tr.active { background: var(--accent-soft); }
+    .threshold-table tr:last-child td { border-bottom: none; }
+
+    /* ── FAQ ────────────────────────────────────────────────────────────── */
+    details { border-bottom: 1px solid var(--line); padding: 18px 0; }
+    summary {
+      cursor: pointer; list-style: none; font-weight: 600; color: #222;
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 20px; font-size: 16px;
+    }
+    summary::after { content: "+"; flex: 0 0 auto; color: #8f8578; font-size: 22px; line-height: 1; }
+    summary::-webkit-details-marker { display: none; }
+    summary:hover { color: var(--ink); }
+    details[open] summary { margin-bottom: 10px; }
+    details[open] summary::after { content: "\2212"; }
+    .faq-answer { font-size: 15px; color: #444; line-height: 1.7; }
+
+    /* ── Related Pages ──────────────────────────────────────────────────── */
+    .related-grid {
+      display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px;
+    }
+    .related-card {
+      background: var(--paper); border: 1px solid var(--line);
+      border-radius: 18px; padding: 24px 26px;
+      box-shadow: var(--shadow-soft), var(--shadow-hairline);
+    }
+    .related-card h3 { margin-bottom: 12px; }
+    .related-list { list-style: none; display: grid; gap: 8px; padding: 0; }
+    .related-list li { display: flex; justify-content: space-between; align-items: baseline; }
+    .related-list a {
+      color: var(--link); text-decoration: underline;
+      text-decoration-color: rgba(31,98,128,0.24); text-underline-offset: 3px;
+    }
+    .related-list a:hover { text-decoration-color: rgba(31,98,128,0.68); }
+    .related-list .l1-tag {
+      font-family: var(--mono); font-size: 12px; color: #999;
+      white-space: nowrap;
+    }
+
+    /* ── Reg Window ─────────────────────────────────────────────────────── */
+    .reg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .reg-item-label {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
+      text-transform: uppercase; color: #8b7f72; margin-bottom: 4px;
+    }
+    .reg-item-value { font-size: 15px; color: var(--ink); }
+
+    /* ── Footer ─────────────────────────────────────────────────────────── */
+    .footer {
+      width: min(var(--reading), calc(100% - 48px));
+      margin: 0 auto; padding: 24px 0 80px;
+      font-size: 13px; line-height: 1.6; color: #aaa;
+      border-top: 1px solid var(--line);
+    }
+    .footer p + p { margin-top: 10px; }
+    .footer a { color: #aaa; }
+
+    /* ── Mobile ─────────────────────────────────────────────────────────── */
+    @media (max-width: 980px) {
+      .page-layout { grid-template-columns: 1fr; gap: 28px; }
+      .context-rail { order: 0; }
+      .content-column { order: 1; }
+      .context-card { position: static; }
+    }
+    @media (max-width: 720px) {
+      .site-nav-links { display: none; }
+      .hero { padding: 40px 0 32px; }
+      .hero-inner, #main-content { width: calc(100% - 32px); }
+      .section-box, .calc-box { padding: 20px; }
+      .result-stats { flex-direction: column; gap: 16px; }
+      .related-grid { grid-template-columns: 1fr; }
+      .reg-grid { grid-template-columns: 1fr; }
+      .footer { width: calc(100% - 32px); padding-bottom: 64px; }
+      .threshold-table th, .threshold-table td { padding: 10px 10px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body id="top">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="site-nav-inner">
+      <a href="/" class="site-nav-brand">WageLevel</a>
+      <ul class="site-nav-links">
+        <li><a href="/">Calculator</a></li>
+        <li><span class="fy-badge">{{ selection.fy_label }}</span></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <p class="state-label">{{ identity.soc_label }} &middot; {{ identity.soc_code }}</p>
+      <h1 id="hero-title">{{ identity.area_short }}</h1>
+      <p class="hero-sub">OEWS wage thresholds and DHS weighted selection probabilities for {{ selection.fy_label }}.</p>
+      <p class="updated">{{ metadata.source }} &middot; Updated {{ metadata.last_updated }}</p>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="page-layout">
+
+      <!-- ── Sidebar ──────────────────────────────────────────────── -->
+      <aside class="context-rail" aria-labelledby="qr-heading">
+        <div class="section-box context-card">
+          <p class="section-kicker">Quick reference</p>
+          <h2 id="qr-heading">At a glance</h2>
+          <dl class="facts-grid">
+            <dt>Level I</dt>
+            <dd>{{ thresholds.level_1 | currency }}</dd>
+            <dt>Level II</dt>
+            <dd>{{ thresholds.level_2 | currency }}</dd>
+            <dt>Level III</dt>
+            <dd>{{ thresholds.level_3 | currency }}</dd>
+            <dt>Level IV</dt>
+            <dd>{{ thresholds.level_4 | currency }}</dd>
+            <dt>SOC Code</dt>
+            <dd>{{ identity.soc_code }}</dd>
+            <dt>Area Code</dt>
+            <dd>{{ identity.area_code }}</dd>
+          </dl>
+          <div class="context-links">
+            <a href="#calculator">Check your wage</a>
+            <a href="https://www.uscis.gov/newsroom/alerts/fy-2027-h-1b-cap-initial-registration-period-opens-on-march-4" target="_blank" rel="noopener">USCIS registration alert</a>
+            <a href="https://www.federalregister.gov/documents/2025/12/29/2025-23853/weighted-selection-process-for-registrants-and-petitioners-seeking-to-file-cap-subject-h-1b" target="_blank" rel="noopener">Federal Register final rule</a>
+          </div>
+          <p class="source-note">Data: {{ metadata.source }}. {{ metadata.geo_delineation }}.</p>
+        </div>
+      </aside>
+
+      <!-- ── Content ──────────────────────────────────────────────── -->
+      <div class="content-column">
+
+        <!-- Calculator ────────────────────────────────────────────── -->
+        <section id="calculator" class="section-shell">
+          <div class="calc-box">
+            <p class="section-kicker">Your wage level</p>
+            <h2>Check your level for this SOC &amp; area</h2>
+            <p style="font-size:14px;color:#666;margin-top:6px;">Enter your guaranteed annual compensation below.</p>
+            <div class="calc-input-wrap">
+              <span class="calc-dollar" aria-hidden="true">$</span>
+              <input id="wage-input" type="number" inputmode="numeric" min="0" placeholder="135000" aria-label="Guaranteed annual wage" />
+            </div>
+            <p class="calc-hint">Base salary + guaranteed bonuses. RSUs and discretionary bonuses do not count.</p>
+
+            <div id="calc-result" class="calc-result">
+              <div class="result-tier-row">
+                <span id="r-tier" class="result-tier-num">—</span>
+                <span class="result-tier-of">of 4</span>
+              </div>
+              <div class="result-stats">
+                <div>
+                  <p class="result-stat-label">DHS Baseline</p>
+                  <p id="r-pct" class="result-stat-value green">—</p>
+                </div>
+                <div>
+                  <p class="result-stat-label">Lottery Entries</p>
+                  <p id="r-entries" class="result-stat-value">—</p>
+                </div>
+              </div>
+              <p id="r-note" class="result-note"></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Threshold breakdown ───────────────────────────────────── -->
+        <section id="thresholds" class="section-shell">
+          <div class="section-copy">
+            <p class="section-kicker">Threshold breakdown</p>
+            <h2>All four wage levels</h2>
+            <p>These are the OEWS prevailing wage thresholds for {{ identity.soc_label }} in the {{ identity.area_label }} area.</p>
+          </div>
+          <table class="threshold-table" aria-label="Wage level thresholds">
+            <thead>
+              <tr><th>Level</th><th>Threshold</th><th>Probability</th><th>Entries</th></tr>
+            </thead>
+            <tbody>
+              <tr class="threshold-row" data-level="1">
+                <td>I</td>
+                <td>{{ thresholds.level_1 | currency }}</td>
+                <td>15.29%</td>
+                <td>1&times;</td>
+              </tr>
+              <tr class="threshold-row" data-level="2">
+                <td>II</td>
+                <td>{{ thresholds.level_2 | currency }}</td>
+                <td>30.58%</td>
+                <td>2&times;</td>
+              </tr>
+              <tr class="threshold-row" data-level="3">
+                <td>III</td>
+                <td>{{ thresholds.level_3 | currency }}</td>
+                <td>45.87%</td>
+                <td>3&times;</td>
+              </tr>
+              <tr class="threshold-row" data-level="4">
+                <td>IV</td>
+                <td>{{ thresholds.level_4 | currency }}</td>
+                <td>61.16%</td>
+                <td>4&times;</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="font-size:12px;color:#999;margin-top:14px;">
+            Modeled baselines from the DHS final rule (90 Fed. Reg. 60864). Actual outcomes vary with total registrations and wage-level mix.
+          </p>
+        </section>
+
+        <!-- Registration window ───────────────────────────────────── -->
+        <section id="registration" class="section-shell">
+          <div class="section-copy">
+            <p class="section-kicker">{{ selection.fy_label }} registration</p>
+            <h2>Registration Window</h2>
+          </div>
+          <div class="reg-grid">
+            <div>
+              <p class="reg-item-label">Opens</p>
+              <p class="reg-item-value">{{ selection.reg_open }}</p>
+            </div>
+            <div>
+              <p class="reg-item-label">Closes</p>
+              <p class="reg-item-value">{{ selection.reg_close }}</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ ────────────────────────────────────────────────────── -->
+        {% if faq %}
+        <section id="faq" class="section-shell" aria-labelledby="faq-heading">
+          <div class="section-copy">
+            <p class="section-kicker">Common questions</p>
+            <h2 id="faq-heading">FAQ</h2>
+          </div>
+          {% for f in faq %}
+          <details>
+            <summary>{{ f.question }}</summary>
+            <p class="faq-answer">{{ f.answer }}</p>
+          </details>
+          {% endfor %}
+        </section>
+        {% endif %}
+
+        <!-- Related pages ─────────────────────────────────────────── -->
+        {% if related.same_soc_other_areas or related.same_area_other_socs %}
+        <section id="related" class="section-shell" aria-labelledby="related-heading">
+          <div class="section-copy">
+            <p class="section-kicker">Related pages</p>
+            <h2 id="related-heading">Compare</h2>
+          </div>
+          <div class="related-grid">
+            {% if related.same_soc_other_areas %}
+            <div class="related-card">
+              <h3>{{ identity.soc_label }} elsewhere</h3>
+              <ul class="related-list">
+                {% for r in related.same_soc_other_areas %}
+                <li>
+                  <a href="/{{ r.slug }}">{{ r.area_label }}</a>
+                  <span class="l1-tag">L1 {{ r.l1 | currency }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+            {% if related.same_area_other_socs %}
+            <div class="related-card">
+              <h3>Other occupations in {{ identity.area_short }}</h3>
+              <ul class="related-list">
+                {% for r in related.same_area_other_socs %}
+                <li>
+                  <a href="/{{ r.slug }}">{{ r.soc_label }}</a>
+                  <span class="l1-tag">L1 {{ r.l1 | currency }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </section>
+        {% endif %}
+
+      </div><!-- content-column -->
+    </div><!-- page-layout -->
+  </main>
+
+  <footer class="footer">
+    <p>Not affiliated with USCIS, DHS, DOL, or OFLC. DHS baselines are modeled outputs from the final rule; actual {{ selection.fy_label }} outcomes depend on registration volume and wage-level distribution.</p>
+    <p>Data source: {{ metadata.source }}. Geographic delineation: {{ metadata.geo_delineation }}. This is not legal advice. Counsel makes final SOC, wage, and filing strategy determinations.</p>
+    <p>&copy; 2026 wagelevel.fyi</p>
+  </footer>
+
+  <script>
+  (function() {
+    var T = [{{ thresholds.level_1 }}, {{ thresholds.level_2 }}, {{ thresholds.level_3 }}, {{ thresholds.level_4 }}];
+    var B = {1:{p:15.29,e:1},2:{p:30.58,e:2},3:{p:45.87,e:3},4:{p:61.16,e:4}};
+    var inp = document.getElementById('wage-input');
+    var box = document.getElementById('calc-result');
+    var rTier = document.getElementById('r-tier');
+    var rPct = document.getElementById('r-pct');
+    var rEntries = document.getElementById('r-entries');
+    var rNote = document.getElementById('r-note');
+    var rows = document.querySelectorAll('.threshold-row');
+
+    function fmt(n) { return n.toLocaleString('en-US'); }
+
+    inp.addEventListener('input', function() {
+      var raw = inp.value.replace(/[^0-9]/g, '');
+      if (!raw) { box.classList.remove('visible'); rows.forEach(function(r){r.classList.remove('active');}); return; }
+      var w = parseInt(raw, 10);
+      if (isNaN(w) || w <= 0) { box.classList.remove('visible'); return; }
+
+      var level = 1;
+      if (w >= T[3]) level = 4;
+      else if (w >= T[2]) level = 3;
+      else if (w >= T[1]) level = 2;
+      else level = 1;
+
+      rTier.textContent = level;
+      rPct.textContent = B[level].p.toFixed(2) + '%';
+      rEntries.textContent = B[level].e + '\u00d7';
+      box.classList.add('visible');
+
+      rows.forEach(function(r) {
+        r.classList.toggle('active', parseInt(r.getAttribute('data-level')) === level);
+      });
+
+      var note = '';
+      if (w < T[0]) {
+        var gap = T[0] - w;
+        note = '<span class="result-below-l1">Your wage ($' + fmt(w) + ') is $' + fmt(gap) +
+               ' below the Level I threshold ($' + fmt(T[0]) + '). Weighting cannot go below Level I (1 entry), ' +
+               'but this indicates the offer is below the Level I benchmark.</span>';
+      } else if (level < 4) {
+        var next = T[level];
+        var gap2 = next - w;
+        if (gap2 > 0) {
+          note = 'Your wage ($' + fmt(w) + ') is $' + fmt(gap2) +
+                 ' below the Level ' + (level+1) + ' threshold ($' + fmt(next) + ').';
+        }
+      }
+      rNote.innerHTML = note;
+    });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "information-security-analysts-austin-tx",
+    "soc_code": "15-1212.00",
+    "soc_label": "Information Security Analysts",
+    "area_code": "12420",
+    "area_label": "Austin-Round Rock-San Marcos, TX",
+    "area_short": "Austin, TX",
+    "canonical_url": "https://www.wagelevel.fyi/information-security-analysts-austin-tx"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Information Security Analysts in Austin, TX (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Information Security Analysts (SOC 15-1212.00) in Austin-Round Rock-San Marcos, TX. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level information security analysts austin, tx, h1b lottery odds austin, tx, 15-1212.00 wage level 12420"
+  },
+  "thresholds": {
+    "level_1": 78416,
+    "level_2": 103313,
+    "level_3": 128211,
+    "level_4": 153108
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "information-security-analysts-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 108888
+      },
+      {
+        "slug": "information-security-analysts-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 108825
+      },
+      {
+        "slug": "information-security-analysts-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 106080
+      },
+      {
+        "slug": "information-security-analysts-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 99507
+      },
+      {
+        "slug": "information-security-analysts-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 94016
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-austin-tx",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 125715
+      },
+      {
+        "slug": "database-architects-austin-tx",
+        "soc_label": "Database Architects",
+        "l1": 98571
+      },
+      {
+        "slug": "computer-network-architects-austin-tx",
+        "soc_label": "Computer Network Architects",
+        "l1": 96200
+      },
+      {
+        "slug": "computer-hardware-engineers-austin-tx",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 95472
+      },
+      {
+        "slug": "software-developers-austin-tx",
+        "soc_label": "Software Developers",
+        "l1": 90355
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Information Security Analysts in Austin, TX?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Information Security Analysts in Austin, TX are: Level I $78,416, Level II $103,313, Level III $128,211, and Level IV $153,108. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Information Security Analysts in Austin, TX?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

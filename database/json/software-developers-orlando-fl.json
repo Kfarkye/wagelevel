@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "software-developers-orlando-fl",
+    "soc_code": "15-1252.00",
+    "soc_label": "Software Developers",
+    "area_code": "36740",
+    "area_label": "Orlando-Kissimmee-Sanford, FL",
+    "area_short": "Orlando, FL",
+    "canonical_url": "https://www.wagelevel.fyi/software-developers-orlando-fl"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Software Developers in Orlando, FL (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Software Developers (SOC 15-1252.00) in Orlando-Kissimmee-Sanford, FL. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level software developers orlando, fl, h1b lottery odds orlando, fl, 15-1252.00 wage level 36740"
+  },
+  "thresholds": {
+    "level_1": 77251,
+    "level_2": 99195,
+    "level_3": 121118,
+    "level_4": 143062
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "software-developers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 149364
+      },
+      {
+        "slug": "software-developers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 135699
+      },
+      {
+        "slug": "software-developers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 117748
+      },
+      {
+        "slug": "software-developers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 107556
+      },
+      {
+        "slug": "software-developers-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 103209
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-orlando-fl",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 111508
+      },
+      {
+        "slug": "database-architects-orlando-fl",
+        "soc_label": "Database Architects",
+        "l1": 94411
+      },
+      {
+        "slug": "computer-network-architects-orlando-fl",
+        "soc_label": "Computer Network Architects",
+        "l1": 89814
+      },
+      {
+        "slug": "computer-hardware-engineers-orlando-fl",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 88400
+      },
+      {
+        "slug": "computer-information-research-scientists-orlando-fl",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 84468
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Software Developers in Orlando, FL?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Software Developers in Orlando, FL are: Level I $77,251, Level II $99,195, Level III $121,118, and Level IV $143,062. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Software Developers in Orlando, FL?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

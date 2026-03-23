@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "management-analysts-houston-tx",
+    "soc_code": "13-1111.00",
+    "soc_label": "Management Analysts",
+    "area_code": "26420",
+    "area_label": "Houston-Pasadena-The Woodlands, TX",
+    "area_short": "Houston, TX",
+    "canonical_url": "https://www.wagelevel.fyi/management-analysts-houston-tx"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Management Analysts in Houston, TX (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Management Analysts (SOC 13-1111.00) in Houston-Pasadena-The Woodlands, TX. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level management analysts houston, tx, h1b lottery odds houston, tx, 13-1111.00 wage level 26420"
+  },
+  "thresholds": {
+    "level_1": 67225,
+    "level_2": 88129,
+    "level_3": 109012,
+    "level_4": 129916
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "management-analysts-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 96990
+      },
+      {
+        "slug": "management-analysts-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 87900
+      },
+      {
+        "slug": "management-analysts-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 86611
+      },
+      {
+        "slug": "management-analysts-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 83033
+      },
+      {
+        "slug": "management-analysts-baltimore-md",
+        "area_label": "Baltimore, MD",
+        "l1": 80870
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-houston-tx",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 115398
+      },
+      {
+        "slug": "software-developers-houston-tx",
+        "soc_label": "Software Developers",
+        "l1": 84094
+      },
+      {
+        "slug": "computer-network-architects-houston-tx",
+        "soc_label": "Computer Network Architects",
+        "l1": 81390
+      },
+      {
+        "slug": "information-security-analysts-houston-tx",
+        "soc_label": "Information Security Analysts",
+        "l1": 77750
+      },
+      {
+        "slug": "database-architects-houston-tx",
+        "soc_label": "Database Architects",
+        "l1": 77188
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Management Analysts in Houston, TX?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Management Analysts in Houston, TX are: Level I $67,225, Level II $88,129, Level III $109,012, and Level IV $129,916. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Management Analysts in Houston, TX?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

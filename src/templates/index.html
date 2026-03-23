@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>H-1B Wage Level Calculator — OEWS Thresholds &amp; DHS Selection Probabilities (FY2027)</title>
+  <meta name="description" content="Map your guaranteed wage to OEWS Level I–IV and view DHS baseline selection probabilities under the FY2027 weighted selection rule. 833 occupation × metro pages." />
+  <link rel="canonical" href="{{ site_domain }}/" />
+  <meta property="og:title" content="H-1B Wage Level Calculator (FY2027)" />
+  <meta property="og:description" content="OEWS wage thresholds and DHS weighted selection probabilities for 17 occupations across 49 U.S. metros." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site_domain }}/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="#faf9f7" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Karla:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --paper: #faf9f7;
+      --line: #e6e2dc;
+      --ink: #1f1f1f;
+      --muted: #6f6f6f;
+      --soft: #888888;
+      --link: #1f6280;
+      --accent: #b08a52;
+      --accent-soft: rgba(176, 138, 82, 0.12);
+      --shell: 1120px;
+      --reading: 760px;
+      --shadow-soft: 0 18px 42px rgba(37, 29, 20, 0.06);
+      --shadow-hairline: 0 1px 0 rgba(255, 255, 255, 0.9) inset;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    html { background: var(--bg); color: var(--ink); font-size: 16px; }
+
+    body {
+      font-family: 'Karla', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+    h1, h2, h3 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      color: #191919; letter-spacing: -0.01em; line-height: 1.22;
+    }
+
+    h1 { font-size: clamp(30px, 5vw, 42px); }
+    h2 { font-size: clamp(22px, 3.5vw, 28px); margin-bottom: 12px; }
+    p { color: #313131; }
+
+    /* ── Nav ─────────────────────────────────────── */
+    .site-nav {
+      position: sticky; top: 0; z-index: 100; height: 48px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    .site-nav-inner {
+      width: min(var(--shell), calc(100% - 48px));
+      height: 48px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav-brand {
+      font-size: 13px; font-weight: 600; color: #555; text-decoration: none;
+    }
+    .fy-badge {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+      background: rgba(176,138,82,0.1); color: var(--accent);
+      border: 1px solid rgba(176,138,82,0.2);
+      padding: 2px 8px; border-radius: 20px;
+    }
+
+    /* ── Hero ────────────────────────────────────── */
+    .hero {
+      border-bottom: 1px solid var(--line); background: var(--paper);
+      padding: 64px 0 52px;
+    }
+    .hero-inner {
+      width: min(var(--reading), calc(100% - 48px)); margin: 0 auto;
+    }
+    .hero-sub { margin-top: 12px; color: #444; font-size: 18px; max-width: 42ch; }
+    .hero-meta { margin-top: 14px; font-size: 13px; color: #999; }
+    .hero-meta span { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-right: 6px; vertical-align: middle; }
+
+    /* ── Calculator ──────────────────────────────── */
+    .calc-section {
+      width: min(var(--reading), calc(100% - 48px));
+      margin: -36px auto 0; position: relative; z-index: 2;
+    }
+    .calc-box {
+      background: #fff; border: 1px solid var(--line);
+      border-radius: 18px; padding: 32px;
+      box-shadow: var(--shadow-soft), var(--shadow-hairline);
+    }
+    .calc-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+    .calc-field label {
+      display: block; font-size: 11px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: #8b7f72; margin-bottom: 6px;
+    }
+    .calc-field select, .calc-field-wage input {
+      width: 100%; padding: 12px 14px; border: 1px solid var(--line);
+      border-radius: 10px; background: var(--paper); color: var(--ink);
+      font-size: 14px; font-family: var(--mono); outline: none;
+      transition: border-color 140ms ease;
+    }
+    .calc-field select:focus, .calc-field-wage input:focus { border-color: var(--accent); }
+    .calc-field-wage { grid-column: 1 / -1; position: relative; }
+    .calc-field-wage .dollar {
+      position: absolute; left: 16px; bottom: 14px;
+      font-family: var(--mono); font-size: 20px; color: #999; pointer-events: none;
+    }
+    .calc-field-wage input {
+      font-size: 22px; font-weight: 700; padding-left: 34px;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
+    input[type=number] { -moz-appearance: textfield; }
+    .calc-hint { font-size: 12px; color: #999; margin-top: 8px; }
+
+    .calc-result { margin-top: 24px; padding-top: 24px; border-top: 1px solid #ece6de; display: none; }
+    .calc-result.visible { display: block; }
+    .cr-row { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
+    .cr-tier { font-family: 'Source Serif 4', serif; font-size: 52px; font-weight: 600; line-height: 1; }
+    .cr-of { font-size: 18px; color: #999; font-style: italic; font-family: 'Source Serif 4', serif; }
+    .cr-stats { display: flex; gap: 32px; }
+    .cr-label { font-size: 10px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #8b7f72; margin-bottom: 4px; }
+    .cr-val { font-family: var(--mono); font-size: 22px; font-weight: 700; }
+    .cr-val.green { color: #2d7a4f; }
+    .cr-note { margin-top: 14px; font-size: 13px; color: #666; line-height: 1.6; }
+    .cr-link { margin-top: 16px; }
+    .cr-link a {
+      display: inline-block; padding: 10px 20px; border-radius: 10px;
+      background: var(--ink); color: #fff; text-decoration: none;
+      font-size: 13px; font-weight: 600; transition: background 140ms ease;
+    }
+    .cr-link a:hover { background: #333; }
+
+    /* ── Browse Section ──────────────────────────── */
+    .browse-section {
+      width: min(var(--shell), calc(100% - 48px));
+      margin: 56px auto 0; padding-bottom: 80px;
+    }
+    .section-kicker {
+      margin-bottom: 10px; font-size: 12px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase; color: #8a7d6f;
+    }
+    .browse-filter {
+      margin: 20px 0; padding: 10px 14px; border: 1px solid var(--line);
+      border-radius: 10px; font-size: 14px; width: 100%; max-width: 400px;
+      background: var(--paper); outline: none;
+    }
+    .browse-filter:focus { border-color: var(--accent); }
+    .soc-group { margin-bottom: 32px; }
+    .soc-group-header {
+      font-size: 17px; font-weight: 600; color: var(--ink);
+      padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 10px;
+    }
+    .soc-group-code { font-family: var(--mono); font-size: 13px; color: #999; margin-left: 8px; }
+    .area-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 6px 24px; }
+    .area-list li { font-size: 14px; }
+    .area-list a { color: var(--link); text-decoration: none; }
+    .area-list a:hover { text-decoration: underline; }
+    .area-list .l1 { font-family: var(--mono); font-size: 12px; color: #999; margin-left: 6px; }
+
+    /* ── Footer ──────────────────────────────────── */
+    .footer {
+      width: min(var(--reading), calc(100% - 48px));
+      margin: 0 auto; padding: 24px 0 80px;
+      font-size: 13px; line-height: 1.6; color: #aaa;
+      border-top: 1px solid var(--line);
+    }
+    .footer p + p { margin-top: 10px; }
+    .footer a { color: #aaa; }
+
+    @media (max-width: 720px) {
+      .hero { padding: 48px 0 40px; }
+      .hero-inner, .calc-section, .browse-section { width: calc(100% - 32px); }
+      .calc-fields { grid-template-columns: 1fr; }
+      .cr-stats { flex-direction: column; gap: 16px; }
+      .footer { width: calc(100% - 32px); }
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a href="/" class="site-nav-brand">WageLevel</a>
+      <span class="fy-badge">FY2027</span>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>H-1B Wage Level Calculator</h1>
+      <p class="hero-sub">Map your guaranteed wage to OEWS Level I&ndash;IV and view DHS baseline selection probabilities under the weighted selection rule.</p>
+      <p class="hero-meta"><span></span>Registration: March 4 &ndash; March 19, 2026 (ET)</p>
+    </div>
+  </header>
+
+  <section class="calc-section">
+    <div class="calc-box">
+      <div class="calc-fields">
+        <div class="calc-field">
+          <label for="soc-select">Occupation (SOC)</label>
+          <select id="soc-select"></select>
+        </div>
+        <div class="calc-field">
+          <label for="area-select">Metro Area</label>
+          <select id="area-select"></select>
+        </div>
+        <div class="calc-field-wage">
+          <label for="hub-wage">Guaranteed Registration Wage</label>
+          <span class="dollar" aria-hidden="true">$</span>
+          <input id="hub-wage" type="number" inputmode="numeric" min="0" placeholder="135000" />
+          <p class="calc-hint">Base salary + guaranteed bonuses. RSUs and discretionary bonuses do not count.</p>
+        </div>
+      </div>
+
+      <div id="hub-result" class="calc-result">
+        <div class="cr-row">
+          <span id="hr-tier" class="cr-tier">—</span>
+          <span class="cr-of">of 4</span>
+        </div>
+        <div class="cr-stats">
+          <div>
+            <p class="cr-label">DHS Baseline</p>
+            <p id="hr-pct" class="cr-val green">—</p>
+          </div>
+          <div>
+            <p class="cr-label">Lottery Entries</p>
+            <p id="hr-entries" class="cr-val">—</p>
+          </div>
+        </div>
+        <p id="hr-note" class="cr-note"></p>
+        <div id="hr-link" class="cr-link" style="display:none;">
+          <a id="hr-page-link" href="#">View full breakdown &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="browse-section" id="browse">
+    <p class="section-kicker">Browse all pages</p>
+    <h2>{{ manifest.page_count }} occupation &times; metro pages</h2>
+    <input class="browse-filter" id="browse-filter" type="text" placeholder="Filter by occupation or city..." />
+
+    {% for soc_code, soc_label in manifest.soc_index %}
+    <div class="soc-group" data-soc="{{ soc_code }}" data-label="{{ soc_label | lower }}">
+      <p class="soc-group-header">{{ soc_label }}<span class="soc-group-code">{{ soc_code }}</span></p>
+      <ul class="area-list">
+        {% for page in manifest.pages %}
+        {% if page.soc_code == soc_code %}
+        <li data-area="{{ page.area_short | lower }}">
+          <a href="/{{ page.slug }}">{{ page.area_short }}</a>
+          <span class="l1">L1 ${{ "{:,}".format(page.l1) }}</span>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+  <footer class="footer">
+    <p>Not affiliated with USCIS, DHS, DOL, or OFLC. DHS baselines are modeled outputs from the final rule; actual FY2027 outcomes depend on registration volume and wage-level distribution.</p>
+    <p>Data source: July 2025&ndash;June 2026 OFLC FLC Wage Library. This is not legal advice.</p>
+    <p>&copy; 2026 wagelevel.fyi</p>
+  </footer>
+
+  <script>
+  (function() {
+    var DATA = {{ hub_wage_data | tojson }};
+    var B = {1:{p:15.29,e:1},2:{p:30.58,e:2},3:{p:45.87,e:3},4:{p:61.16,e:4}};
+    var socSel = document.getElementById('soc-select');
+    var areaSel = document.getElementById('area-select');
+    var wageInp = document.getElementById('hub-wage');
+    var box = document.getElementById('hub-result');
+    var rTier = document.getElementById('hr-tier');
+    var rPct = document.getElementById('hr-pct');
+    var rEntries = document.getElementById('hr-entries');
+    var rNote = document.getElementById('hr-note');
+    var rLink = document.getElementById('hr-link');
+    var rPageLink = document.getElementById('hr-page-link');
+
+    // Populate SOC dropdown
+    DATA.socs.forEach(function(s) {
+      var o = document.createElement('option');
+      o.value = s[0]; o.textContent = s[1];
+      socSel.appendChild(o);
+    });
+
+    function populateAreas() {
+      var soc = socSel.value;
+      areaSel.innerHTML = '';
+      var areas = DATA.areas_by_soc[soc] || [];
+      areas.forEach(function(a) {
+        var o = document.createElement('option');
+        o.value = a[0]; o.textContent = a[1];
+        areaSel.appendChild(o);
+      });
+      calculate();
+    }
+
+    function fmt(n) { return n.toLocaleString('en-US'); }
+
+    function calculate() {
+      var soc = socSel.value;
+      var area = areaSel.value;
+      var raw = wageInp.value.replace(/[^0-9]/g, '');
+      if (!raw || !soc || !area) { box.classList.remove('visible'); rLink.style.display='none'; return; }
+      var w = parseInt(raw, 10);
+      if (isNaN(w) || w <= 0) { box.classList.remove('visible'); return; }
+
+      var entry = (DATA.matrix[soc] || {})[area];
+      if (!entry) { box.classList.remove('visible'); return; }
+      var T = entry.t;
+      var slug = entry.s;
+
+      var level = 1;
+      if (w >= T[3]) level = 4;
+      else if (w >= T[2]) level = 3;
+      else if (w >= T[1]) level = 2;
+
+      rTier.textContent = level;
+      rPct.textContent = B[level].p.toFixed(2) + '%';
+      rEntries.textContent = B[level].e + '\u00d7';
+      box.classList.add('visible');
+
+      var note = '';
+      if (w < T[0]) {
+        note = 'Your wage ($' + fmt(w) + ') is $' + fmt(T[0]-w) + ' below the Level I threshold ($' + fmt(T[0]) + ').';
+      } else if (level < 4) {
+        var gap = T[level] - w;
+        if (gap > 0) note = 'Your wage ($' + fmt(w) + ') is $' + fmt(gap) + ' below the Level ' + (level+1) + ' threshold ($' + fmt(T[level]) + ').';
+      }
+      rNote.textContent = note;
+
+      if (slug) {
+        rPageLink.href = '/' + slug;
+        rLink.style.display = 'block';
+      }
+    }
+
+    socSel.addEventListener('change', populateAreas);
+    areaSel.addEventListener('change', calculate);
+    wageInp.addEventListener('input', calculate);
+    populateAreas();
+
+    // Browse filter
+    var filterInp = document.getElementById('browse-filter');
+    filterInp.addEventListener('input', function() {
+      var q = filterInp.value.toLowerCase();
+      document.querySelectorAll('.soc-group').forEach(function(g) {
+        var socMatch = g.getAttribute('data-label').indexOf(q) !== -1;
+        var anyArea = false;
+        g.querySelectorAll('.area-list li').forEach(function(li) {
+          var areaMatch = li.getAttribute('data-area').indexOf(q) !== -1;
+          li.style.display = (socMatch || areaMatch || !q) ? '' : 'none';
+          if (socMatch || areaMatch) anyArea = true;
+        });
+        g.style.display = (anyArea || socMatch || !q) ? '' : 'none';
+      });
+    });
+  })();
+  </script>
+</body>
+</html>

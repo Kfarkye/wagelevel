@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "data-scientists-philadelphia-pa",
+    "soc_code": "15-2051.00",
+    "soc_label": "Data Scientists",
+    "area_code": "37980",
+    "area_label": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "area_short": "Philadelphia, PA",
+    "canonical_url": "https://www.wagelevel.fyi/data-scientists-philadelphia-pa"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Data Scientists in Philadelphia, PA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Data Scientists (SOC 15-2051.00) in Philadelphia-Camden-Wilmington, PA-NJ-DE-MD. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level data scientists philadelphia, pa, h1b lottery odds philadelphia, pa, 15-2051.00 wage level 37980"
+  },
+  "thresholds": {
+    "level_1": 73944,
+    "level_2": 96012,
+    "level_3": 118081,
+    "level_4": 140150
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "data-scientists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 123531
+      },
+      {
+        "slug": "data-scientists-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 103521
+      },
+      {
+        "slug": "data-scientists-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 96116
+      },
+      {
+        "slug": "data-scientists-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 90230
+      },
+      {
+        "slug": "data-scientists-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 88462
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-philadelphia-pa",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 120993
+      },
+      {
+        "slug": "database-architects-philadelphia-pa",
+        "soc_label": "Database Architects",
+        "l1": 96304
+      },
+      {
+        "slug": "computer-hardware-engineers-philadelphia-pa",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 90729
+      },
+      {
+        "slug": "computer-network-architects-philadelphia-pa",
+        "soc_label": "Computer Network Architects",
+        "l1": 88816
+      },
+      {
+        "slug": "computer-information-research-scientists-philadelphia-pa",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 88566
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Data Scientists in Philadelphia, PA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Data Scientists in Philadelphia, PA are: Level I $73,944, Level II $96,012, Level III $118,081, and Level IV $140,150. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Data Scientists in Philadelphia, PA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

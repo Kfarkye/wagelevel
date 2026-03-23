@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-programmers-salt-lake-city-ut",
+    "soc_code": "15-1251.00",
+    "soc_label": "Computer Programmers",
+    "area_code": "41620",
+    "area_label": "Salt Lake City-Murray, UT",
+    "area_short": "Salt Lake City, UT",
+    "canonical_url": "https://www.wagelevel.fyi/computer-programmers-salt-lake-city-ut"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Programmers in Salt Lake City, UT (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Programmers (SOC 15-1251.00) in Salt Lake City-Murray, UT. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer programmers salt lake city, ut, h1b lottery odds salt lake city, ut, 15-1251.00 wage level 41620"
+  },
+  "thresholds": {
+    "level_1": 65374,
+    "level_2": 81265,
+    "level_3": 97156,
+    "level_4": 113048
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-programmers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 108555
+      },
+      {
+        "slug": "computer-programmers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 102876
+      },
+      {
+        "slug": "computer-programmers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 85529
+      },
+      {
+        "slug": "computer-programmers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 84156
+      },
+      {
+        "slug": "computer-programmers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 82867
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-salt-lake-city-ut",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 104811
+      },
+      {
+        "slug": "database-architects-salt-lake-city-ut",
+        "soc_label": "Database Architects",
+        "l1": 97073
+      },
+      {
+        "slug": "computer-network-architects-salt-lake-city-ut",
+        "soc_label": "Computer Network Architects",
+        "l1": 88524
+      },
+      {
+        "slug": "computer-information-research-scientists-salt-lake-city-ut",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 82243
+      },
+      {
+        "slug": "software-developers-salt-lake-city-ut",
+        "soc_label": "Software Developers",
+        "l1": 80537
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Programmers in Salt Lake City, UT?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Programmers in Salt Lake City, UT are: Level I $65,374, Level II $81,265, Level III $97,156, and Level IV $113,048. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Programmers in Salt Lake City, UT?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

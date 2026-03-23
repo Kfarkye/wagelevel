@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "industrial-engineers-jacksonville-fl",
+    "soc_code": "17-2112.00",
+    "soc_label": "Industrial Engineers",
+    "area_code": "27260",
+    "area_label": "Jacksonville, FL",
+    "area_short": "Jacksonville, FL",
+    "canonical_url": "https://www.wagelevel.fyi/industrial-engineers-jacksonville-fl"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Industrial Engineers in Jacksonville, FL (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Industrial Engineers (SOC 17-2112.00) in Jacksonville, FL. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level industrial engineers jacksonville, fl, h1b lottery odds jacksonville, fl, 17-2112.00 wage level 27260"
+  },
+  "thresholds": {
+    "level_1": 67912,
+    "level_2": 83096,
+    "level_3": 98280,
+    "level_4": 113464
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "industrial-engineers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 95139
+      },
+      {
+        "slug": "industrial-engineers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 94681
+      },
+      {
+        "slug": "industrial-engineers-new-orleans-la",
+        "area_label": "New Orleans, LA",
+        "l1": 93454
+      },
+      {
+        "slug": "industrial-engineers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 90126
+      },
+      {
+        "slug": "industrial-engineers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 88816
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-jacksonville-fl",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 108659
+      },
+      {
+        "slug": "computer-network-architects-jacksonville-fl",
+        "soc_label": "Computer Network Architects",
+        "l1": 91561
+      },
+      {
+        "slug": "database-architects-jacksonville-fl",
+        "soc_label": "Database Architects",
+        "l1": 89065
+      },
+      {
+        "slug": "software-developers-jacksonville-fl",
+        "soc_label": "Software Developers",
+        "l1": 76377
+      },
+      {
+        "slug": "information-security-analysts-jacksonville-fl",
+        "soc_label": "Information Security Analysts",
+        "l1": 74588
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Industrial Engineers in Jacksonville, FL?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Industrial Engineers in Jacksonville, FL are: Level I $67,912, Level II $83,096, Level III $98,280, and Level IV $113,464. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Industrial Engineers in Jacksonville, FL?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

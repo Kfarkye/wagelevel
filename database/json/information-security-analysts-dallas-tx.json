@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "information-security-analysts-dallas-tx",
+    "soc_code": "15-1212.00",
+    "soc_label": "Information Security Analysts",
+    "area_code": "19100",
+    "area_label": "Dallas-Fort Worth-Arlington, TX",
+    "area_short": "Dallas, TX",
+    "canonical_url": "https://www.wagelevel.fyi/information-security-analysts-dallas-tx"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Information Security Analysts in Dallas, TX (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Information Security Analysts (SOC 15-1212.00) in Dallas-Fort Worth-Arlington, TX. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level information security analysts dallas, tx, h1b lottery odds dallas, tx, 15-1212.00 wage level 19100"
+  },
+  "thresholds": {
+    "level_1": 85716,
+    "level_2": 106995,
+    "level_3": 128252,
+    "level_4": 149531
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "information-security-analysts-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 108888
+      },
+      {
+        "slug": "information-security-analysts-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 108825
+      },
+      {
+        "slug": "information-security-analysts-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 106080
+      },
+      {
+        "slug": "information-security-analysts-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 99507
+      },
+      {
+        "slug": "information-security-analysts-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 94016
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-dallas-tx",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 122574
+      },
+      {
+        "slug": "computer-network-architects-dallas-tx",
+        "soc_label": "Computer Network Architects",
+        "l1": 93308
+      },
+      {
+        "slug": "database-architects-dallas-tx",
+        "soc_label": "Database Architects",
+        "l1": 92872
+      },
+      {
+        "slug": "computer-hardware-engineers-dallas-tx",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 92560
+      },
+      {
+        "slug": "software-developers-dallas-tx",
+        "soc_label": "Software Developers",
+        "l1": 90896
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Information Security Analysts in Dallas, TX?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Information Security Analysts in Dallas, TX are: Level I $85,716, Level II $106,995, Level III $128,252, and Level IV $149,531. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Information Security Analysts in Dallas, TX?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

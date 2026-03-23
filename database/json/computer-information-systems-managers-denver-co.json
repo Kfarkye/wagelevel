@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-information-systems-managers-denver-co",
+    "soc_code": "11-3021.00",
+    "soc_label": "Computer And Information Systems Managers",
+    "area_code": "19740",
+    "area_label": "Denver-Aurora-Centennial, CO",
+    "area_short": "Denver, CO",
+    "canonical_url": "https://www.wagelevel.fyi/computer-information-systems-managers-denver-co"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer And Information Systems Managers in Denver, CO (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer And Information Systems Managers (SOC 11-3021.00) in Denver-Aurora-Centennial, CO. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer and information systems managers denver, co, h1b lottery odds denver, co, 11-3021.00 wage level 19740"
+  },
+  "thresholds": {
+    "level_1": 138964,
+    "level_2": 167336,
+    "level_3": 195686,
+    "level_4": 224057
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-information-systems-managers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 178505
+      },
+      {
+        "slug": "computer-information-systems-managers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 164132
+      },
+      {
+        "slug": "computer-information-systems-managers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 154440
+      },
+      {
+        "slug": "computer-information-systems-managers-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 148449
+      },
+      {
+        "slug": "computer-information-systems-managers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 146348
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "database-architects-denver-co",
+        "soc_label": "Database Architects",
+        "l1": 104977
+      },
+      {
+        "slug": "computer-hardware-engineers-denver-co",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 104000
+      },
+      {
+        "slug": "computer-information-research-scientists-denver-co",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 99694
+      },
+      {
+        "slug": "software-developers-denver-co",
+        "soc_label": "Software Developers",
+        "l1": 98737
+      },
+      {
+        "slug": "computer-network-architects-denver-co",
+        "soc_label": "Computer Network Architects",
+        "l1": 92393
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer And Information Systems Managers in Denver, CO?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer And Information Systems Managers in Denver, CO are: Level I $138,964, Level II $167,336, Level III $195,686, and Level IV $224,057. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer And Information Systems Managers in Denver, CO?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

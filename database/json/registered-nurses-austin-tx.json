@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "registered-nurses-austin-tx",
+    "soc_code": "29-1141.00",
+    "soc_label": "Registered Nurses",
+    "area_code": "12420",
+    "area_label": "Austin-Round Rock-San Marcos, TX",
+    "area_short": "Austin, TX",
+    "canonical_url": "https://www.wagelevel.fyi/registered-nurses-austin-tx"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Registered Nurses in Austin, TX (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Registered Nurses (SOC 29-1141.00) in Austin-Round Rock-San Marcos, TX. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level registered nurses austin, tx, h1b lottery odds austin, tx, 29-1141.00 wage level 12420"
+  },
+  "thresholds": {
+    "level_1": 68473,
+    "level_2": 80704,
+    "level_3": 92934,
+    "level_4": 105164
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "registered-nurses-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 139235
+      },
+      {
+        "slug": "registered-nurses-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 126880
+      },
+      {
+        "slug": "registered-nurses-sacramento-ca",
+        "area_label": "Sacramento, CA",
+        "l1": 111800
+      },
+      {
+        "slug": "registered-nurses-san-diego-ca",
+        "area_label": "San Diego, CA",
+        "l1": 106080
+      },
+      {
+        "slug": "registered-nurses-los-angeles-ca",
+        "area_label": "Los Angeles, CA",
+        "l1": 100900
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-austin-tx",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 125715
+      },
+      {
+        "slug": "database-architects-austin-tx",
+        "soc_label": "Database Architects",
+        "l1": 98571
+      },
+      {
+        "slug": "computer-network-architects-austin-tx",
+        "soc_label": "Computer Network Architects",
+        "l1": 96200
+      },
+      {
+        "slug": "computer-hardware-engineers-austin-tx",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 95472
+      },
+      {
+        "slug": "software-developers-austin-tx",
+        "soc_label": "Software Developers",
+        "l1": 90355
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Registered Nurses in Austin, TX?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Registered Nurses in Austin, TX are: Level I $68,473, Level II $80,704, Level III $92,934, and Level IV $105,164. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Registered Nurses in Austin, TX?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

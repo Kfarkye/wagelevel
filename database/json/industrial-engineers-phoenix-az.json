@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "industrial-engineers-phoenix-az",
+    "soc_code": "17-2112.00",
+    "soc_label": "Industrial Engineers",
+    "area_code": "38060",
+    "area_label": "Phoenix-Mesa-Chandler, AZ",
+    "area_short": "Phoenix, AZ",
+    "canonical_url": "https://www.wagelevel.fyi/industrial-engineers-phoenix-az"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Industrial Engineers in Phoenix, AZ (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Industrial Engineers (SOC 17-2112.00) in Phoenix-Mesa-Chandler, AZ. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level industrial engineers phoenix, az, h1b lottery odds phoenix, az, 17-2112.00 wage level 38060"
+  },
+  "thresholds": {
+    "level_1": 81369,
+    "level_2": 102627,
+    "level_3": 123884,
+    "level_4": 145142
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "industrial-engineers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 95139
+      },
+      {
+        "slug": "industrial-engineers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 94681
+      },
+      {
+        "slug": "industrial-engineers-new-orleans-la",
+        "area_label": "New Orleans, LA",
+        "l1": 93454
+      },
+      {
+        "slug": "industrial-engineers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 90126
+      },
+      {
+        "slug": "industrial-engineers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 88816
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-phoenix-az",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 109886
+      },
+      {
+        "slug": "computer-information-research-scientists-phoenix-az",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 109512
+      },
+      {
+        "slug": "computer-hardware-engineers-phoenix-az",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 104457
+      },
+      {
+        "slug": "database-architects-phoenix-az",
+        "soc_label": "Database Architects",
+        "l1": 95451
+      },
+      {
+        "slug": "computer-network-architects-phoenix-az",
+        "soc_label": "Computer Network Architects",
+        "l1": 90521
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Industrial Engineers in Phoenix, AZ?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Industrial Engineers in Phoenix, AZ are: Level I $81,369, Level II $102,627, Level III $123,884, and Level IV $145,142. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Industrial Engineers in Phoenix, AZ?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

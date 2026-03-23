@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "project-management-specialists-minneapolis-mn",
+    "soc_code": "13-1082.00",
+    "soc_label": "Project Management Specialists",
+    "area_code": "33460",
+    "area_label": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "area_short": "Minneapolis, MN",
+    "canonical_url": "https://www.wagelevel.fyi/project-management-specialists-minneapolis-mn"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Project Management Specialists in Minneapolis, MN (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Project Management Specialists (SOC 13-1082.00) in Minneapolis-St. Paul-Bloomington, MN-WI. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level project management specialists minneapolis, mn, h1b lottery odds minneapolis, mn, 13-1082.00 wage level 33460"
+  },
+  "thresholds": {
+    "level_1": 70990,
+    "level_2": 87505,
+    "level_3": 104000,
+    "level_4": 120515
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "project-management-specialists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 91832
+      },
+      {
+        "slug": "project-management-specialists-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 87464
+      },
+      {
+        "slug": "project-management-specialists-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 79248
+      },
+      {
+        "slug": "project-management-specialists-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 78520
+      },
+      {
+        "slug": "project-management-specialists-denver-co",
+        "area_label": "Denver, CO",
+        "l1": 77334
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-minneapolis-mn",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 127400
+      },
+      {
+        "slug": "computer-information-research-scientists-minneapolis-mn",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 100172
+      },
+      {
+        "slug": "database-architects-minneapolis-mn",
+        "soc_label": "Database Architects",
+        "l1": 99424
+      },
+      {
+        "slug": "computer-hardware-engineers-minneapolis-mn",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 99008
+      },
+      {
+        "slug": "computer-network-architects-minneapolis-mn",
+        "soc_label": "Computer Network Architects",
+        "l1": 93787
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Project Management Specialists in Minneapolis, MN?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Project Management Specialists in Minneapolis, MN are: Level I $70,990, Level II $87,505, Level III $104,000, and Level IV $120,515. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Project Management Specialists in Minneapolis, MN?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

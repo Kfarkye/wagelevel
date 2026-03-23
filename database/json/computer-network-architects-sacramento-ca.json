@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-network-architects-sacramento-ca",
+    "soc_code": "15-1241.00",
+    "soc_label": "Computer Network Architects",
+    "area_code": "40900",
+    "area_label": "Sacramento-Roseville-Folsom, CA",
+    "area_short": "Sacramento, CA",
+    "canonical_url": "https://www.wagelevel.fyi/computer-network-architects-sacramento-ca"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Network Architects in Sacramento, CA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Network Architects (SOC 15-1241.00) in Sacramento-Roseville-Folsom, CA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer network architects sacramento, ca, h1b lottery odds sacramento, ca, 15-1241.00 wage level 40900"
+  },
+  "thresholds": {
+    "level_1": 86486,
+    "level_2": 110676,
+    "level_3": 134888,
+    "level_4": 159078
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-network-architects-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 121846
+      },
+      {
+        "slug": "computer-network-architects-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 113110
+      },
+      {
+        "slug": "computer-network-architects-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 112382
+      },
+      {
+        "slug": "computer-network-architects-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 106745
+      },
+      {
+        "slug": "computer-network-architects-baltimore-md",
+        "area_label": "Baltimore, MD",
+        "l1": 105123
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-hardware-engineers-sacramento-ca",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 130852
+      },
+      {
+        "slug": "computer-information-systems-managers-sacramento-ca",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 125881
+      },
+      {
+        "slug": "registered-nurses-sacramento-ca",
+        "soc_label": "Registered Nurses",
+        "l1": 111800
+      },
+      {
+        "slug": "database-architects-sacramento-ca",
+        "soc_label": "Database Architects",
+        "l1": 105393
+      },
+      {
+        "slug": "software-developers-sacramento-ca",
+        "soc_label": "Software Developers",
+        "l1": 100089
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Network Architects in Sacramento, CA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Network Architects in Sacramento, CA are: Level I $86,486, Level II $110,676, Level III $134,888, and Level IV $159,078. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Network Architects in Sacramento, CA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

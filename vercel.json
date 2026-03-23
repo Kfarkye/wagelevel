@@ -1,0 +1,51 @@
+{
+  "installCommand": "pip install -r requirements.txt",
+  "buildCommand": "python3 generate_pages.py && python3 build.py",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "wagelevel.fyi"
+        }
+      ],
+      "destination": "https://www.wagelevel.fyi/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "wagelevel.fyi"
+        }
+      ],
+      "destination": "https://www.wagelevel.fyi/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}

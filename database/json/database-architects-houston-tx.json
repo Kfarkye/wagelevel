@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "database-architects-houston-tx",
+    "soc_code": "15-1243.00",
+    "soc_label": "Database Architects",
+    "area_code": "26420",
+    "area_label": "Houston-Pasadena-The Woodlands, TX",
+    "area_short": "Houston, TX",
+    "canonical_url": "https://www.wagelevel.fyi/database-architects-houston-tx"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Database Architects in Houston, TX (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Database Architects (SOC 15-1243.00) in Houston-Pasadena-The Woodlands, TX. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level database architects houston, tx, h1b lottery odds houston, tx, 15-1243.00 wage level 26420"
+  },
+  "thresholds": {
+    "level_1": 77188,
+    "level_2": 102294,
+    "level_3": 127379,
+    "level_4": 152484
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "database-architects-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 128606
+      },
+      {
+        "slug": "database-architects-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 124488
+      },
+      {
+        "slug": "database-architects-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 119704
+      },
+      {
+        "slug": "database-architects-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 117686
+      },
+      {
+        "slug": "database-architects-urban-honolulu-hi",
+        "area_label": "Urban Honolulu, HI",
+        "l1": 115003
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-houston-tx",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 115398
+      },
+      {
+        "slug": "software-developers-houston-tx",
+        "soc_label": "Software Developers",
+        "l1": 84094
+      },
+      {
+        "slug": "computer-network-architects-houston-tx",
+        "soc_label": "Computer Network Architects",
+        "l1": 81390
+      },
+      {
+        "slug": "information-security-analysts-houston-tx",
+        "soc_label": "Information Security Analysts",
+        "l1": 77750
+      },
+      {
+        "slug": "computer-systems-analysts-houston-tx",
+        "soc_label": "Computer Systems Analysts",
+        "l1": 75171
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Database Architects in Houston, TX?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Database Architects in Houston, TX are: Level I $77,188, Level II $102,294, Level III $127,379, and Level IV $152,484. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Database Architects in Houston, TX?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

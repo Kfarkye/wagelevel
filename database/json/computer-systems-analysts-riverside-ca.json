@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-systems-analysts-riverside-ca",
+    "soc_code": "15-1211.00",
+    "soc_label": "Computer Systems Analysts",
+    "area_code": "40140",
+    "area_label": "Riverside-San Bernardino-Ontario, CA",
+    "area_short": "Riverside, CA",
+    "canonical_url": "https://www.wagelevel.fyi/computer-systems-analysts-riverside-ca"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Systems Analysts in Riverside, CA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Systems Analysts (SOC 15-1211.00) in Riverside-San Bernardino-Ontario, CA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer systems analysts riverside, ca, h1b lottery odds riverside, ca, 15-1211.00 wage level 40140"
+  },
+  "thresholds": {
+    "level_1": 81848,
+    "level_2": 98945,
+    "level_3": 116022,
+    "level_4": 133120
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-systems-analysts-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 101920
+      },
+      {
+        "slug": "computer-systems-analysts-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 98758
+      },
+      {
+        "slug": "computer-systems-analysts-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 92185
+      },
+      {
+        "slug": "computer-systems-analysts-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 87380
+      },
+      {
+        "slug": "computer-systems-analysts-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 86257
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-riverside-ca",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 112008
+      },
+      {
+        "slug": "registered-nurses-riverside-ca",
+        "soc_label": "Registered Nurses",
+        "l1": 99736
+      },
+      {
+        "slug": "software-developers-riverside-ca",
+        "soc_label": "Software Developers",
+        "l1": 91353
+      },
+      {
+        "slug": "computer-information-research-scientists-riverside-ca",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 89398
+      },
+      {
+        "slug": "database-architects-riverside-ca",
+        "soc_label": "Database Architects",
+        "l1": 78832
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Systems Analysts in Riverside, CA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Systems Analysts in Riverside, CA are: Level I $81,848, Level II $98,945, Level III $116,022, and Level IV $133,120. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Systems Analysts in Riverside, CA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

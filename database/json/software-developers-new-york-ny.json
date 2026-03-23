@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "software-developers-new-york-ny",
+    "soc_code": "15-1252.00",
+    "soc_label": "Software Developers",
+    "area_code": "35620",
+    "area_label": "New York-Newark-Jersey City, NY-NJ",
+    "area_short": "New York, NY",
+    "canonical_url": "https://www.wagelevel.fyi/software-developers-new-york-ny"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Software Developers in New York, NY (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Software Developers (SOC 15-1252.00) in New York-Newark-Jersey City, NY-NJ. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level software developers new york, ny, h1b lottery odds new york, ny, 15-1252.00 wage level 35620"
+  },
+  "thresholds": {
+    "level_1": 103209,
+    "level_2": 131996,
+    "level_3": 160804,
+    "level_4": 189592
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "software-developers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 149364
+      },
+      {
+        "slug": "software-developers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 135699
+      },
+      {
+        "slug": "software-developers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 117748
+      },
+      {
+        "slug": "software-developers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 107556
+      },
+      {
+        "slug": "software-developers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 102897
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-new-york-ny",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 148449
+      },
+      {
+        "slug": "computer-information-research-scientists-new-york-ny",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 110011
+      },
+      {
+        "slug": "computer-network-architects-new-york-ny",
+        "soc_label": "Computer Network Architects",
+        "l1": 103937
+      },
+      {
+        "slug": "information-security-analysts-new-york-ny",
+        "soc_label": "Information Security Analysts",
+        "l1": 94016
+      },
+      {
+        "slug": "database-architects-new-york-ny",
+        "soc_label": "Database Architects",
+        "l1": 93225
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Software Developers in New York, NY?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Software Developers in New York, NY are: Level I $103,209, Level II $131,996, Level III $160,804, and Level IV $189,592. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Software Developers in New York, NY?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

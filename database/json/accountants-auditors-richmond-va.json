@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "accountants-auditors-richmond-va",
+    "soc_code": "13-2011.00",
+    "soc_label": "Accountants And Auditors",
+    "area_code": "40060",
+    "area_label": "Richmond, VA",
+    "area_short": "Richmond, VA",
+    "canonical_url": "https://www.wagelevel.fyi/accountants-auditors-richmond-va"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Accountants And Auditors in Richmond, VA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Accountants And Auditors (SOC 13-2011.00) in Richmond, VA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level accountants and auditors richmond, va, h1b lottery odds richmond, va, 13-2011.00 wage level 40060"
+  },
+  "thresholds": {
+    "level_1": 58801,
+    "level_2": 73382,
+    "level_3": 87984,
+    "level_4": 102564
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "accountants-auditors-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 81182
+      },
+      {
+        "slug": "accountants-auditors-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 76211
+      },
+      {
+        "slug": "accountants-auditors-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 73112
+      },
+      {
+        "slug": "accountants-auditors-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 73070
+      },
+      {
+        "slug": "accountants-auditors-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 70096
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-research-scientists-richmond-va",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 129209
+      },
+      {
+        "slug": "computer-information-systems-managers-richmond-va",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 125153
+      },
+      {
+        "slug": "database-architects-richmond-va",
+        "soc_label": "Database Architects",
+        "l1": 96179
+      },
+      {
+        "slug": "computer-network-architects-richmond-va",
+        "soc_label": "Computer Network Architects",
+        "l1": 85883
+      },
+      {
+        "slug": "software-developers-richmond-va",
+        "soc_label": "Software Developers",
+        "l1": 83636
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Accountants And Auditors in Richmond, VA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Accountants And Auditors in Richmond, VA are: Level I $58,801, Level II $73,382, Level III $87,984, and Level IV $102,564. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Accountants And Auditors in Richmond, VA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

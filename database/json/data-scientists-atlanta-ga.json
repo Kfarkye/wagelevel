@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "data-scientists-atlanta-ga",
+    "soc_code": "15-2051.00",
+    "soc_label": "Data Scientists",
+    "area_code": "12060",
+    "area_label": "Atlanta-Sandy Springs-Roswell, GA",
+    "area_short": "Atlanta, GA",
+    "canonical_url": "https://www.wagelevel.fyi/data-scientists-atlanta-ga"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Data Scientists in Atlanta, GA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Data Scientists (SOC 15-2051.00) in Atlanta-Sandy Springs-Roswell, GA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level data scientists atlanta, ga, h1b lottery odds atlanta, ga, 15-2051.00 wage level 12060"
+  },
+  "thresholds": {
+    "level_1": 73195,
+    "level_2": 93974,
+    "level_3": 114753,
+    "level_4": 135532
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "data-scientists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 123531
+      },
+      {
+        "slug": "data-scientists-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 103521
+      },
+      {
+        "slug": "data-scientists-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 96116
+      },
+      {
+        "slug": "data-scientists-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 90230
+      },
+      {
+        "slug": "data-scientists-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 88462
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-atlanta-ga",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 125424
+      },
+      {
+        "slug": "database-architects-atlanta-ga",
+        "soc_label": "Database Architects",
+        "l1": 109636
+      },
+      {
+        "slug": "computer-network-architects-atlanta-ga",
+        "soc_label": "Computer Network Architects",
+        "l1": 96054
+      },
+      {
+        "slug": "software-developers-atlanta-ga",
+        "soc_label": "Software Developers",
+        "l1": 87859
+      },
+      {
+        "slug": "computer-information-research-scientists-atlanta-ga",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 83553
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Data Scientists in Atlanta, GA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Data Scientists in Atlanta, GA are: Level I $73,195, Level II $93,974, Level III $114,753, and Level IV $135,532. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Data Scientists in Atlanta, GA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

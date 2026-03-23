@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "data-scientists-columbia-sc",
+    "soc_code": "15-2051.00",
+    "soc_label": "Data Scientists",
+    "area_code": "17900",
+    "area_label": "Columbia, SC",
+    "area_short": "Columbia, SC",
+    "canonical_url": "https://www.wagelevel.fyi/data-scientists-columbia-sc"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Data Scientists in Columbia, SC (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Data Scientists (SOC 15-2051.00) in Columbia, SC. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level data scientists columbia, sc, h1b lottery odds columbia, sc, 15-2051.00 wage level 17900"
+  },
+  "thresholds": {
+    "level_1": 59654,
+    "level_2": 76606,
+    "level_3": 93537,
+    "level_4": 110489
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "data-scientists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 123531
+      },
+      {
+        "slug": "data-scientists-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 103521
+      },
+      {
+        "slug": "data-scientists-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 96116
+      },
+      {
+        "slug": "data-scientists-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 90230
+      },
+      {
+        "slug": "data-scientists-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 88462
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-columbia-sc",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 90812
+      },
+      {
+        "slug": "computer-network-architects-columbia-sc",
+        "soc_label": "Computer Network Architects",
+        "l1": 83054
+      },
+      {
+        "slug": "computer-information-research-scientists-columbia-sc",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 82097
+      },
+      {
+        "slug": "database-architects-columbia-sc",
+        "soc_label": "Database Architects",
+        "l1": 81494
+      },
+      {
+        "slug": "information-security-analysts-columbia-sc",
+        "soc_label": "Information Security Analysts",
+        "l1": 77771
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Data Scientists in Columbia, SC?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Data Scientists in Columbia, SC are: Level I $59,654, Level II $76,606, Level III $93,537, and Level IV $110,489. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Data Scientists in Columbia, SC?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-programmers-charlotte-nc",
+    "soc_code": "15-1251.00",
+    "soc_label": "Computer Programmers",
+    "area_code": "16740",
+    "area_label": "Charlotte-Concord-Gastonia, NC-SC",
+    "area_short": "Charlotte, NC",
+    "canonical_url": "https://www.wagelevel.fyi/computer-programmers-charlotte-nc"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Programmers in Charlotte, NC (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Programmers (SOC 15-1251.00) in Charlotte-Concord-Gastonia, NC-SC. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer programmers charlotte, nc, h1b lottery odds charlotte, nc, 15-1251.00 wage level 16740"
+  },
+  "thresholds": {
+    "level_1": 55598,
+    "level_2": 74214,
+    "level_3": 92830,
+    "level_4": 111446
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-programmers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 108555
+      },
+      {
+        "slug": "computer-programmers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 102876
+      },
+      {
+        "slug": "computer-programmers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 85529
+      },
+      {
+        "slug": "computer-programmers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 84156
+      },
+      {
+        "slug": "computer-programmers-portland-or",
+        "area_label": "Portland, OR",
+        "l1": 82867
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-charlotte-nc",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 123468
+      },
+      {
+        "slug": "database-architects-charlotte-nc",
+        "soc_label": "Database Architects",
+        "l1": 96532
+      },
+      {
+        "slug": "computer-network-architects-charlotte-nc",
+        "soc_label": "Computer Network Architects",
+        "l1": 93953
+      },
+      {
+        "slug": "software-developers-charlotte-nc",
+        "soc_label": "Software Developers",
+        "l1": 91291
+      },
+      {
+        "slug": "information-security-analysts-charlotte-nc",
+        "soc_label": "Information Security Analysts",
+        "l1": 83699
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Programmers in Charlotte, NC?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Programmers in Charlotte, NC are: Level I $55,598, Level II $74,214, Level III $92,830, and Level IV $111,446. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Programmers in Charlotte, NC?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

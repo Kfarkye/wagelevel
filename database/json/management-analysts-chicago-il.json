@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "management-analysts-chicago-il",
+    "soc_code": "13-1111.00",
+    "soc_label": "Management Analysts",
+    "area_code": "16980",
+    "area_label": "Chicago-Naperville-Elgin, IL-IN",
+    "area_short": "Chicago, IL",
+    "canonical_url": "https://www.wagelevel.fyi/management-analysts-chicago-il"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Management Analysts in Chicago, IL (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Management Analysts (SOC 13-1111.00) in Chicago-Naperville-Elgin, IL-IN. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level management analysts chicago, il, h1b lottery odds chicago, il, 13-1111.00 wage level 16980"
+  },
+  "thresholds": {
+    "level_1": 70179,
+    "level_2": 98945,
+    "level_3": 127691,
+    "level_4": 156457
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "management-analysts-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 96990
+      },
+      {
+        "slug": "management-analysts-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 87900
+      },
+      {
+        "slug": "management-analysts-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 86611
+      },
+      {
+        "slug": "management-analysts-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 83033
+      },
+      {
+        "slug": "management-analysts-baltimore-md",
+        "area_label": "Baltimore, MD",
+        "l1": 80870
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-chicago-il",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 114420
+      },
+      {
+        "slug": "computer-network-architects-chicago-il",
+        "soc_label": "Computer Network Architects",
+        "l1": 99424
+      },
+      {
+        "slug": "database-architects-chicago-il",
+        "soc_label": "Database Architects",
+        "l1": 89564
+      },
+      {
+        "slug": "software-developers-chicago-il",
+        "soc_label": "Software Developers",
+        "l1": 85467
+      },
+      {
+        "slug": "information-security-analysts-chicago-il",
+        "soc_label": "Information Security Analysts",
+        "l1": 75608
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Management Analysts in Chicago, IL?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Management Analysts in Chicago, IL are: Level I $70,179, Level II $98,945, Level III $127,691, and Level IV $156,457. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Management Analysts in Chicago, IL?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

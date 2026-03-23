@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "project-management-specialists-pittsburgh-pa",
+    "soc_code": "13-1082.00",
+    "soc_label": "Project Management Specialists",
+    "area_code": "38300",
+    "area_label": "Pittsburgh, PA",
+    "area_short": "Pittsburgh, PA",
+    "canonical_url": "https://www.wagelevel.fyi/project-management-specialists-pittsburgh-pa"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Project Management Specialists in Pittsburgh, PA (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Project Management Specialists (SOC 13-1082.00) in Pittsburgh, PA. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level project management specialists pittsburgh, pa, h1b lottery odds pittsburgh, pa, 13-1082.00 wage level 38300"
+  },
+  "thresholds": {
+    "level_1": 60985,
+    "level_2": 79476,
+    "level_3": 97968,
+    "level_4": 116459
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "project-management-specialists-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 91832
+      },
+      {
+        "slug": "project-management-specialists-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 87464
+      },
+      {
+        "slug": "project-management-specialists-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 79248
+      },
+      {
+        "slug": "project-management-specialists-washington-dc",
+        "area_label": "Washington, DC",
+        "l1": 78520
+      },
+      {
+        "slug": "project-management-specialists-denver-co",
+        "area_label": "Denver, CO",
+        "l1": 77334
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-pittsburgh-pa",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 103625
+      },
+      {
+        "slug": "computer-information-research-scientists-pittsburgh-pa",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 102710
+      },
+      {
+        "slug": "computer-hardware-engineers-pittsburgh-pa",
+        "soc_label": "Computer Hardware Engineers",
+        "l1": 83532
+      },
+      {
+        "slug": "computer-network-architects-pittsburgh-pa",
+        "soc_label": "Computer Network Architects",
+        "l1": 82430
+      },
+      {
+        "slug": "database-architects-pittsburgh-pa",
+        "soc_label": "Database Architects",
+        "l1": 78998
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Project Management Specialists in Pittsburgh, PA?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Project Management Specialists in Pittsburgh, PA are: Level I $60,985, Level II $79,476, Level III $97,968, and Level IV $116,459. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Project Management Specialists in Pittsburgh, PA?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

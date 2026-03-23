@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-information-systems-managers-columbia-sc",
+    "soc_code": "11-3021.00",
+    "soc_label": "Computer And Information Systems Managers",
+    "area_code": "17900",
+    "area_label": "Columbia, SC",
+    "area_short": "Columbia, SC",
+    "canonical_url": "https://www.wagelevel.fyi/computer-information-systems-managers-columbia-sc"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer And Information Systems Managers in Columbia, SC (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer And Information Systems Managers (SOC 11-3021.00) in Columbia, SC. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer and information systems managers columbia, sc, h1b lottery odds columbia, sc, 11-3021.00 wage level 17900"
+  },
+  "thresholds": {
+    "level_1": 90812,
+    "level_2": 116438,
+    "level_3": 142064,
+    "level_4": 167689
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-information-systems-managers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 178505
+      },
+      {
+        "slug": "computer-information-systems-managers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 164132
+      },
+      {
+        "slug": "computer-information-systems-managers-seattle-wa",
+        "area_label": "Seattle, WA",
+        "l1": 154440
+      },
+      {
+        "slug": "computer-information-systems-managers-new-york-ny",
+        "area_label": "New York, NY",
+        "l1": 148449
+      },
+      {
+        "slug": "computer-information-systems-managers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 146348
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-network-architects-columbia-sc",
+        "soc_label": "Computer Network Architects",
+        "l1": 83054
+      },
+      {
+        "slug": "computer-information-research-scientists-columbia-sc",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 82097
+      },
+      {
+        "slug": "database-architects-columbia-sc",
+        "soc_label": "Database Architects",
+        "l1": 81494
+      },
+      {
+        "slug": "information-security-analysts-columbia-sc",
+        "soc_label": "Information Security Analysts",
+        "l1": 77771
+      },
+      {
+        "slug": "industrial-engineers-columbia-sc",
+        "soc_label": "Industrial Engineers",
+        "l1": 72758
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer And Information Systems Managers in Columbia, SC?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer And Information Systems Managers in Columbia, SC are: Level I $90,812, Level II $116,438, Level III $142,064, and Level IV $167,689. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer And Information Systems Managers in Columbia, SC?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}

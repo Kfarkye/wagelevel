@@ -1,0 +1,122 @@
+{
+  "__schema_version": "1.0.0",
+  "identity": {
+    "slug": "computer-hardware-engineers-tampa-fl",
+    "soc_code": "17-2061.00",
+    "soc_label": "Computer Hardware Engineers",
+    "area_code": "45300",
+    "area_label": "Tampa-St. Petersburg-Clearwater, FL",
+    "area_short": "Tampa, FL",
+    "canonical_url": "https://www.wagelevel.fyi/computer-hardware-engineers-tampa-fl"
+  },
+  "seo": {
+    "title": "H-1B Wage Level: Computer Hardware Engineers in Tampa, FL (FY2027)",
+    "description": "OEWS Level I–IV wage thresholds for Computer Hardware Engineers (SOC 17-2061.00) in Tampa-St. Petersburg-Clearwater, FL. DHS weighted selection probabilities under the FY2027 final rule.",
+    "keywords": "h1b wage level computer hardware engineers tampa, fl, h1b lottery odds tampa, fl, 17-2061.00 wage level 45300"
+  },
+  "thresholds": {
+    "level_1": 65603,
+    "level_2": 87006,
+    "level_3": 108409,
+    "level_4": 129812
+  },
+  "selection": {
+    "fy_label": "FY2027",
+    "baselines": {
+      "1": {
+        "probability": 15.29,
+        "entries": 1
+      },
+      "2": {
+        "probability": 30.58,
+        "entries": 2
+      },
+      "3": {
+        "probability": 45.87,
+        "entries": 3
+      },
+      "4": {
+        "probability": 61.16,
+        "entries": 4
+      }
+    },
+    "reg_open": "March 4, 2026 (12:00 PM ET)",
+    "reg_close": "March 19, 2026 (12:00 PM ET)"
+  },
+  "metadata": {
+    "source": "July 2025–June 2026 OFLC FLC Wage Library",
+    "geo_delineation": "May 2024 OEWS (2020 Census)",
+    "last_updated": "2026-03-22",
+    "data_vintage": "2025-26"
+  },
+  "related": {
+    "same_soc_other_areas": [
+      {
+        "slug": "computer-hardware-engineers-san-jose-ca",
+        "area_label": "San Jose, CA",
+        "l1": 150238
+      },
+      {
+        "slug": "computer-hardware-engineers-san-francisco-ca",
+        "area_label": "San Francisco, CA",
+        "l1": 133203
+      },
+      {
+        "slug": "computer-hardware-engineers-sacramento-ca",
+        "area_label": "Sacramento, CA",
+        "l1": 130852
+      },
+      {
+        "slug": "computer-hardware-engineers-san-diego-ca",
+        "area_label": "San Diego, CA",
+        "l1": 123843
+      },
+      {
+        "slug": "computer-hardware-engineers-boston-ma",
+        "area_label": "Boston, MA",
+        "l1": 121284
+      }
+    ],
+    "same_area_other_socs": [
+      {
+        "slug": "computer-information-systems-managers-tampa-fl",
+        "soc_label": "Computer And Information Systems Managers",
+        "l1": 112299
+      },
+      {
+        "slug": "computer-network-architects-tampa-fl",
+        "soc_label": "Computer Network Architects",
+        "l1": 86694
+      },
+      {
+        "slug": "database-architects-tampa-fl",
+        "soc_label": "Database Architects",
+        "l1": 86569
+      },
+      {
+        "slug": "computer-information-research-scientists-tampa-fl",
+        "soc_label": "Computer And Information Research Scientists",
+        "l1": 81078
+      },
+      {
+        "slug": "software-developers-tampa-fl",
+        "soc_label": "Software Developers",
+        "l1": 78374
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the H-1B wage level for Computer Hardware Engineers in Tampa, FL?",
+      "answer": "Under the OEWS prevailing wage system, the four wage levels for Computer Hardware Engineers in Tampa, FL are: Level I $65,603, Level II $87,006, Level III $108,409, and Level IV $129,812. Your H-1B registration wage level is determined by which threshold your guaranteed wage meets or exceeds."
+    },
+    {
+      "question": "What are the H-1B lottery odds for Computer Hardware Engineers in Tampa, FL?",
+      "answer": "Under the DHS weighted selection model for FY2027, baseline probabilities are: Level I 15.29% (1 entry), Level II 30.58% (2 entries), Level III 45.87% (3 entries), Level IV 61.16% (4 entries). Actual outcomes depend on total registration volume and wage-level distribution."
+    },
+    {
+      "question": "When is the FY2027 H-1B registration window?",
+      "answer": "The USCIS FY2027 H-1B cap registration window opens March 4, 2026 (12:00 PM ET) and closes March 19, 2026 (12:00 PM ET)."
+    }
+  ]
+}
