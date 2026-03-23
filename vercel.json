@@ -1,4 +1,5 @@
 {
+  "framework": null,
   "installCommand": "pip install --break-system-packages -r requirements.txt",
   "buildCommand": "python3 generate_pages.py && python3 build.py",
   "outputDirectory": "dist",
